@@ -27,7 +27,7 @@
                 endif;
             ?>
             <button>
-                <a href="index.html">Retornar ao Cadastro</a>
+                <a href="./index.html">Retornar ao Cadastro</a>
             </button>
             
         </div>
