@@ -6,7 +6,7 @@
     <div class="form-container">
         <div class="form">
             <h1>CADASTRE-SE PARA <br>SORTEIO DE BRINDES</h1> <hr>
-            <form action="dados.html" method="GET">
+            <form action="dados.php" method="POST">
                 Nome: <input type="text" name="nome"> <br>
                 Idade: <input type="text" name="idade"> <br>
                 Email: <input type="email" name="email"> <br>
