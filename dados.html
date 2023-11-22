@@ -27,7 +27,7 @@
                 endif;
             ?>
             <button>
-                <a href="<?php echo 'index.php'; ?>">Retornar ao Cadastro</a>
+                <a href="<?php echo 'index.html'; ?>">Retornar ao Cadastro</a>
             </button>
             
         </div>
