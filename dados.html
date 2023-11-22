@@ -6,8 +6,8 @@
     <div class="form-container">
         <div class="form">
             <?php 
-                    echo "Olá, " . $_POST['nome'] . "!<br>";
-                if(isset($_POST['enviar-formulario'])):
+                    echo "Olá, " . $_GET['nome'] . "!<br>";
+                if(isset($_GET['enviar-formulario'])):
                     $erros = array();
                 // VALIDAÇÃO DE NÚMERO INTEIRO
                 if (!$idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT)):
